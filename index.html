@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Coin Flip</title>
+</head>
+<body>
+
+    <!-- container -->
+    <div class="container">
+        <!-- Heading -->
+        <h1>Coin Flip App</h1>
+        <!-- Buttons -->
+        <button onclick="playGame('Heads')">
+            Heads
+        </button>
+
+        <button onclick="playGame('Tails')">
+            Tails
+        </button>
+
+        <!-- Output of Result -->
+        <h2>Your Result: <span id="display"></span></h2>
+
+        <!-- Score Counter -->
+        <div class="result">
+            <p>Win Score: <span id="win_text">0</span></p>
+            <p>Lose Score: <span id="lose_text">0</span></p>
+        </div>
+
+        <!-- Restore Score Button -->
+        <button class="removebtn" onclick="score.wins = 0; score.lose = 0; localStorage.removeItem('score'); location.reload('#');">
+            Restore Item
+        </button>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
