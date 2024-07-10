@@ -10,13 +10,13 @@
     JS
 ```
 
-<br><br>
+<br>
 
 ## About App
 
-> Basic Coin Flip Web Application.
-> User can chose any choice between Head's and Tail's.
-> If Code Generates same result as the User then he wins or he lose.
-> Their is built in score chart which saves the users wins and lose score.
-> user can reset the score chart.
-> Interactive buttons with Animations.
+> Basic Coin Flip Web Application.<br>
+> User can chose any choice between Head's and Tail's.<br>
+> If Code Generates same result as the User then he wins or he lose.<br>
+> Their is built in score chart which saves the users wins and lose score.<br>
+> user can reset the score chart.<br>
+> Interactive buttons with Animations.<br>
